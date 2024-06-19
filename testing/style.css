@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedan+SC&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+}
+/*onsale bar*/
+.saleBackground{
+    height: 30px;
+    background-color: #12b57c;
+}
+.onSaleWrapper{
+    position: relative;
+    display: flex;
+    margin-inline: auto;
+    margin-left: 10px;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 14px;
+    height: 100px;
+}
+.item1{
+    padding-right: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.two{
+    margin-left: 25px;
+}
+
+
+
+/*stuff for the header/nav for the site*/
+.logo{
+    padding: 5px;
+    font-size: 40px;
+    margin-right: 50px ;
+}
+ a{
+    color:rgba(12, 12, 12, 0.718);
+    text-decoration: none;
+}
+.searchBar{
+    width: 1200px;
+    padding: 5px;
+    background: #FFF;
+    border-radius: 5px;
+    border: solid 1px #141414;
+}
+.navi{
+    margin-left: 70px;
+}
+.navBtn{
+    background: #414241;
+    color: #fff;
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 20px;
+}
+.navBtn:hover{
+    transform: translateY(-5px);
+    transform: scale(105%);
+}
+
+/*the main boxes at the start*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 150px;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    margin-right: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background: #68f760;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.box1:hover{
+    transform: scale(105%);
+    transition: 0.5s;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background:#383685;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.box2:hover{
+    transform: scale(105%);
+    transition: 0.5s;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background:#857a18;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.box3:hover{
+    transform: scale(105%);
+    transition: 0.5s;
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background:#1b1b1b;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.box4:hover{
+    transform: scale(105%);
+    transition: 0.5s;
+}
+.box5{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background:#7d5280;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.box5:hover{
+    transform: scale(105%);
+    transition: 0.5s;
+}
+.box6{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background:#690a25;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.box6:hover{
+    transform: scale(105%);
+    transition: 0.5s;
+}
+.box7{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background:#570e42;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.box7:hover{
+    transform: scale(105%);
+    transition: 0.5s;
+}
+.box8{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background:#bd774f;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.box8:hover{
+    transform: scale(105%);
+    transition: 0.5s;
+}
+.box9{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background: #38542f;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.box9:hover{
+    transform: scale(105%);
+    transition: 0.5s;
+}
+.box10{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background:#b5ad12;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.box10:hover{
+    transform: scale(105%);
+    transition: 0.5s;
+}
+
+
+/*the buttons under the boxes*/
+.btn{
+    padding: 5px;
+    position: relative;
+    left: 59.5px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    cursor: pointer;
+}
+/*seperate button id's to assign buttons different colors*/
+#btn1{
+    background: #19191a;
+}
+#btn2{
+    background: #3e2152;
+}
+#btn3{
+    background: #68f760;
+}
+#btn4{
+    background: #731818;
+}
+#btn5{
+    background: #141414;
+}
+#btn6{
+    background: #383685;
+}
+#btn7{
+    background: #2e752a;
+}
+#btn8{
+    background: #3f5252;
+}
+#btn9{
+    background: #857a18;
+}
+#btn10{
+    background: #4a43fa;
+}
+#btn11{
+    background: #3e1063;
+}
+#btn12{
+    background: #1b1b1b;
+}
+#btn13{
+    background: #12b57c;
+}
+#btn14{
+    background: #2d12b5;
+}
+#btn15{
+    background: #7d5280;
+}
+#btn16{
+    background: #ad508d;
+}
+#btn17{
+    background: #6112b5;
+}
+#btn18{
+    background: #690a25;
+}
+#btn19{
+    background: #506aad;
+}
+#btn20{
+    background: #5093ad; 
+}
+#btn21{
+    background: #570e42; 
+}
+#btn22{
+    background: #50a7ad;
+}
+#btn23{
+    background: #50ad86;
+}
+#btn24{
+    background: #bd774f; 
+}
+#btn25{
+    background: #f3ff52;
+}
+#btn26{
+    background: #171616;
+}
+#btn27{
+    background: #38542f;
+}
+#btn28{
+    background: #1b1b1b;
+}
+#btn29{
+    background: #992820;
+}
+#btn30{
+    background: #b5ad12;
+}
+
+/*this will be for the text change section*/
+.container2{
+    margin: auto;
+    margin-bottom: 110px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: #1b1b1b;
+    height: 260px;
+    width: 1220px;
+    border-radius: 15px;
+}
+
+.wrapper5{
+    background: rgb(112, 216, 7);
+    width: 1170px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.h1P1{
+    color: rgba(12, 12, 12, 0.718);
+    letter-spacing: 4px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.p1H1{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.nxtBtn{
+    background: #1b1b1b;
+    border-radius: 6px;
+    padding: 3.3px;
+    color: #fff;
+    width: 70px;
+    transition: 0.5s;
+}
+.nxtBtn:hover{
+    transform: scale(105%);
+    transition: 0.5s;
+}
+
+/*this will be for the end about section*/
+.aboutContainer{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.aboutBox{
+    width: 1950px;
+    height: 335px;
+    background: #171616;
+    color: #12b57c;
+}
+.p2{
+    color: #fff;
+}
+.about{
+    display: block;
+}
